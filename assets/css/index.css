@@ -1,0 +1,249 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@300;400;600;700&display=swap');
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: "Kumbh Sans", sans-serif;
+}
+
+body {
+	background-color: #00011D;
+	padding-top: 70px;
+}
+
+nav {
+	background-color: #00011d87;
+	border-bottom: white;
+}
+
+section {
+	scroll-margin-top: 100px;
+}
+
+.nav-link {
+	transition: color 0.3s, border-color 0.3s;
+	color: white;
+}
+
+.nav-link:hover {
+	color: #B444FF;
+}
+
+.nav-underline .active {
+	border-bottom: 3px solid #B444FF;
+}
+
+html {
+	scroll-behavior: smooth;
+}
+
+.home {
+	margin: 8%;
+}
+
+.introdution {
+	color: white;
+	font-size: 2rem;
+}
+
+.typing {
+  overflow: hidden;            
+  border-right: 2px solid white; 
+  white-space: nowrap;         
+  animation: typing 3s steps(23) 1 forwards, blink 0.7s step-end infinite;
+}
+
+@keyframes typing {
+  from { width: 0; }
+  to { width: 19ch; } 
+}
+
+@keyframes blink {
+  50% { border-color: transparent; }
+}
+
+.name {
+	color: #B444FF;
+	font-size: 2rem;
+}
+
+.resume {
+	background-color: #B444FF;
+	color: white;
+	border-radius: 25px;
+	padding: 8px 25px;
+}
+
+.resume:hover {
+	background-color: transparent;
+	border: 1px solid #B444FF;
+	color: #B444FF;
+}
+
+.contact {
+	border: 1px solid #B444FF;
+	color: #B444FF;
+	border-radius: 25px;
+	padding: 8px 25px;
+}
+
+.contact:hover {
+	background-color: #B444FF;
+	color: white;
+}
+
+.myself {
+	max-width: 280px;
+	border-bottom: 5px solid #B444FF;
+}
+
+.about {
+	margin: 8%;
+}
+
+.about p {
+	margin: auto;
+}
+
+.habilities h4 {
+	color: white;
+	font-size: 1.5rem;
+}
+
+.habilities h5 {
+	color: white;
+}
+
+.tech-card {
+	background: #0f0f1a;
+	border-radius: 20px 0 0 0;
+	padding: 25px;
+	text-align: center;
+	height: 100%;
+	border-bottom: 4px solid #B444FF;
+	transition: transform 0.2s ease;
+}
+
+.tech-card:hover {
+	transform: translateY(-5px);
+}
+
+.tech-title {
+	color: #B444FF;
+	font-size: 14px;
+	margin-bottom: 10px;
+}
+
+.habilities .row {
+	justify-content: center;
+}
+
+h4 {
+	color: white;
+	font-size: 1.5rem;
+}
+
+.project-card {
+	background-color: #0f0f1a;
+	border-radius: 20px 0 0 0;
+	overflow: hidden;
+	transition: transform 0.2s ease;
+	cursor: pointer;
+}
+
+.projects {
+	padding-bottom: 5%;
+}
+
+.project-card:hover {
+	transform: translateY(-5px);
+}
+
+.project-body {
+	height: 180px;
+}
+
+.project-img {
+	max-width: 70%;
+	max-height: 120px;
+	object-fit: contain;
+}
+
+.project-footer {
+	background-color: #B444FF;
+	padding: 10px;
+}
+
+.project-title {
+	margin: 0;
+	color: white;
+	font-weight: 500;
+	font-size: 0.95rem;
+}
+
+.modal-dark {
+	background-color: #121212;
+	color: #ffffff;
+	border-radius: 12px;
+	text-align: justify;
+}
+
+.modal-dark .modal-header {
+	border-bottom: 1px solid #2a2a2a;
+}
+
+.modal-dark .modal-title {
+	color: #ffffff;
+}
+
+.modal-dark .modal-body {
+	color: #e0e0e0;
+}
+
+.modal-dark .btn-close {
+	filter: invert(1);
+}
+
+.rounded-card {
+	width: 95px;
+	height: 95px;
+	background-color: #121212;
+	border-radius: 50%;
+	align-content: center;
+}
+
+.contacts {
+	justify-items: center;
+	margin: 5%;
+}
+
+.contacts .row {
+	min-width: 850px;
+}
+
+.column {
+	justify-items: center;
+}
+
+.contact-link {
+	text-decoration: none;
+	color: inherit;
+	transition: color 0.3s ease;
+}
+
+.contact-link:hover {
+	color: #7b2cbf;
+}
+
+.contact-title {
+	margin-top: 0.3rem;
+	margin-bottom: 0.2rem;
+	font-size: 1rem;
+}
+
+.contacts p,
+.contacts a {
+	font-size: 0.9rem;
+	line-height: 1.2;
+}
