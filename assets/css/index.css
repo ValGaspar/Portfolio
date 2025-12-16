@@ -56,7 +56,7 @@ html {
 
 @keyframes typing {
   from { width: 0; }
-  to { width: 19ch; } 
+  to { width: 20ch; } 
 }
 
 @keyframes blink {
@@ -218,13 +218,6 @@ h4 {
 	margin: 5%;
 }
 
-.contacts .row {
-	min-width: 850px;
-}
-
-.column {
-	justify-items: center;
-}
 
 .contact-link {
 	text-decoration: none;
