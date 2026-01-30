@@ -69,16 +69,15 @@ html {
 }
 
 .resume {
-	background-color: #B444FF;
-	color: white;
+	border: 1px solid #B444FF;
+	color: #B444FF;
 	border-radius: 25px;
 	padding: 8px 25px;
 }
 
 .resume:hover {
-	background-color: transparent;
-	border: 1px solid #B444FF;
-	color: #B444FF;
+	background-color: #B444FF;
+	color: white;
 }
 
 .contact {
@@ -216,12 +215,13 @@ h4 {
 .contacts {
 	justify-items: center;
 	margin: 5%;
+	color: #B444FF;
 }
 
 
 .contact-link {
 	text-decoration: none;
-	color: inherit;
+	color: white;
 	transition: color 0.3s ease;
 }
 
